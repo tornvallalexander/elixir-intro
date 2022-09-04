@@ -26,4 +26,5 @@ defmodule Party do
   defp do_logo(mascot, :small), do: "#{mascot}_small.png"
 
   defp do_logo(mascot, _size), do: "#{mascot}_normal.png"
+  # comment
 end
